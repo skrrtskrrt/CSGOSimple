@@ -37,9 +37,11 @@ namespace Hooks
 
     void Initialize()
     {
-//      AllocConsole();
+        /*
+        AllocConsole();
         AttachConsole(GetCurrentProcessId());
         freopen("CON", "w", stdout);
+        */
 
         //Builds the netvar database
         NetvarManager::Instance()->CreateDatabase();
