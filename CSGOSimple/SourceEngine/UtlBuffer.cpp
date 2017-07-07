@@ -1,4 +1,4 @@
-//===== Copyright © 1996-2005, Valve Corporation, All rights reserved. ======//
+//===== Copyright Â© 1996-2005, Valve Corporation, All rights reserved. ======//
 //
 // $Header: $
 // $NoKeywords: $
@@ -1359,7 +1359,7 @@ namespace se
                 int nLen =
 #endif
                     vsnprintf(temp, sizeof(temp), pFmt, list);
-                assert(nLen < 2048);
+                Assert(nLen < 2048);
                 PutString(temp);
             }
 
